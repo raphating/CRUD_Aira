@@ -75,11 +75,14 @@ def deletar():
 
 while True:
     print()
-    print("1 - Criar")
-    print("2 - Listar")
-    print("3 - Atualizar")
-    print("4 - Deletar")
-    print("0 - Sair")
+    print("Bem-vindo(a/e) ao Semáforo nome_do_semáforo!")
+    print("Selecione a opção desejada:")
+    print("1 - Analisar prompt")
+    print("2 - Listar prompts salvos")
+    print("3 - Atualizar prompt")
+    print("4 - Deletar prompt")
+    print("0 - Sair do programa")
+    print("------------------------------------------------")
     op = input("Escolha: ")
 
     if op == "1":
